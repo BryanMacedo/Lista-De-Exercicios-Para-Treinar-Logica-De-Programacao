@@ -15,12 +15,12 @@ public class Main {
         System.out.print("Informe um valor para C: ");
         int C = sc.nextInt();
 
-        int soma = A + B;
+        int sum = A + B;
 
-        if (soma < C) {
-            System.out.println("\nA soma de A e B é de: " + soma + " e é menor do que o valor de C que é: " + C);
+        if (sum< C) {
+            System.out.println("\nA soma de A e B é de: " + sum + " e é menor do que o valor de C que é: " + C);
         }else {
-            System.out.println("\nA soma de A e B é de: " + soma + " e é maior do que o valor de C que é: " + C);
+            System.out.println("\nA soma de A e B é de: " + sum + " e é maior do que o valor de C que é: " + C);
         }
 
         sc.close();
